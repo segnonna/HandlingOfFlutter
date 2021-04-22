@@ -73,13 +73,13 @@ class _RandomWordsState extends State<RandomWords> {
     );
   }
 
-  void _pushSaved(){
+  void _pushSaved() {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         // NEW lines from here...
         builder: (BuildContext context) {
           final tiles = _saved.map(
-                (WordPair pair) {
+            (WordPair pair) {
               return ListTile(
                 title: Text(
                   pair.asPascalCase,
