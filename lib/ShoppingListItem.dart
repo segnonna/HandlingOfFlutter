@@ -51,6 +51,7 @@ class ShoppingList extends StatefulWidget {
   final List<Product> products;
   @override
   _ShoppingListState createState() => _ShoppingListState();
+
 }
 
 class _ShoppingListState extends State<ShoppingList> {
@@ -82,6 +83,7 @@ class _ShoppingListState extends State<ShoppingList> {
       ),
     );
   }
+
 }
 
 
